@@ -21,5 +21,6 @@ How to Access Regression:
 Notes:
 - Polynomial Regression will prompt user for number of polynomial degrees to use in model
 - Random Forest Regression will prompt user for number of estimators to use in model
+- size_select will return r2 value as well as the regressor object, therefore regressor properties are available by setting a variable equal to the function (i.e. regressor = model_wizard(path, size_select))
 
 [Table of Contents](#table-of-contents)
